@@ -1,7 +1,7 @@
 {
-  "name": "generatoc",
-  "version": "1.2.4",
-  "description": "Automatically generate table of content from heading of HTML document",
+  "name": "@carrotwu/generatoc",
+  "version": "1.0.0",
+  "description": "Automatically generate table of content from heading of HTML document（ forked from https://github.com/gadzan/generatoc/）",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage && coveralls < coverage/lcov.info",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gadzan/generatoc.git"
+    "url": "git+https://github.com/carrot-wu/generatoc.git"
   },
   "types": "dist/index.d.ts",
   "keywords": [
@@ -30,9 +30,9 @@
   "author": "Gadzan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gadzan/generatoc/issues"
+    "url": "https://github.com/carrot-wu/generatoc/issues"
   },
-  "homepage": "https://github.com/gadzan/generatoc/",
+  "homepage": "https://github.com/carrot-wu/generatoc/",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
