@@ -10,6 +10,9 @@
     "dev": "rollup -w -c rollup.config.dev.js",
     "release": "npm publish"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carrot-wu/generatoc.git"
